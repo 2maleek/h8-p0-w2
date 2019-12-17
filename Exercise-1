@@ -1,0 +1,53 @@
+PSEUDOCODE NEWTON SECON LAW
+
+V.1
+
+READ massa, jumlah_orang
+percepatan = jumah_orang / 3 * 2
+Resultan_gaya = masa * percepatan
+WRITE massa,jumlah_orang, percepatan, Resultan_gaya
+
+V.2
+massa -> 600, percepatan -> 2
+Resultan_gaya = masa * percepatan
+WRITE massa, percepatan, Resultan_gaya
+
+
+PSEUDOCODE TAHUN KABISAT
+
+READ tahun
+IF tahun % 400 == 0
+  WRITE "Itu Tahun Kabisat"
+
+ELSE 
+IF (tahun % 100 != 0) AND (tahun % 4 == 0 )
+  WRITE "Itu Tahun Kabisat"
+
+ELSE
+  WRITE " Itu bukan Tahun kabisat "
+
+END IF
+
+  
+
+PSEUDOCODE LAUNDRY DAY
+
+PAKAIAN -> 0
+WHILE pakaian <= 20 
+  ADD 1 pakaian
+  IF pakaian == 20
+    WRITE "Nyalakan Mesin Cuci"
+  END IF
+END WHILE
+
+PSEUDOCODE
+
+siswa -> 40
+proses -> 1
+WHILE siswa <= proses
+  IF(kuku_panjang)
+    WRITE"Hukum siswa/siswi"
+  ELSE
+    WRITE"Puji siswa/siswi"
+  END IF
+END WHILE
