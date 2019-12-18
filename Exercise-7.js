@@ -8,16 +8,18 @@ for(var i=1; i<=rows1; i++) {
 
 //NO 2
 for(var i=1; i<=rows1; i++) {
+    var bintang = '';
     for(var j=1; j<=rows2; j++){
-        process.stdout.write('*');
+        bintang = bintang + '*';
     }
-    process.stdout.write('\n');
+    console.log(bintang);
 }
 
 //NO 3
 for(var i=1; i<=rows3; i++) {
+    var bintang = '';
     for(var j=1; j<=i; j++) {
-        process.stdout.write('*');
+        bintang = bintang + '*';
     }
-    process.stdout.write('\n');
+    console.log(bintang);
 }
