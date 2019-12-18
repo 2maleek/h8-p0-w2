@@ -1,10 +1,11 @@
 function balikKata(kata) {
-    jIndex = kata.length;
-    var balik=[];
-    for(var i=0; i<=jIndex; i++) {
-        balik[i] = kata[jIndex-i];
+    var jIndex = kata.length;
+    var balik = '';
+
+    for(var i=0; i<jIndex; jIndex--) {
+        balik += kata[jIndex-1];
     }
-    return balik.join('');
+    return balik;
   }
   
   // TEST CASES
