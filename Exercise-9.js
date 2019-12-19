@@ -19,7 +19,8 @@ console.log(hasilPerkalian); // Menampilkan angka 30
 
 //NO 3
 function processSentence(name, age, address, hobby) {
-    return `Nama saya ${name}, umur saya ${age} tahun, alamat saya di ${address}, dan saya punya hobby yaitu ${hobby}!`;
+    return 'Nama saya ' + name + ', umur saya ' + age + ' tahun, alamat sya di ' + address + ', dan saya punya hobby yaitu ' + hobby + '!';
+    //return `Nama saya ${name}, umur saya ${age} tahun, alamat saya di ${address}, dan saya punya hobby yaitu ${hobby}!`;
 }
 var name = "Agus";
 var age = 30;
