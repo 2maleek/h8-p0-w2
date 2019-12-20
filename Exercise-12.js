@@ -1,6 +1,6 @@
 function konversiMenit(menit) {
   var j, m;
-  j = parseInt(menit/60);
+  j = Math.floor(menit/60);
   m = menit % 60;
   if (m < 10) { m = '0' + m;}
   return j + ':' + m;
